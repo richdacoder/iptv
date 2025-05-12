@@ -3,7 +3,7 @@ import type { DataProcessorData } from '../../types/dataProcessor'
 import { API_DIR, STREAMS_DIR, DATA_DIR } from '../../constants'
 import type { DataLoaderData } from '../../types/dataLoader'
 import { Logger, Storage } from '@freearhey/core'
-import { Stream } from '../../models'
+import { Stream } from '../../models' 
 
 async function main() {
   const logger = new Logger()
